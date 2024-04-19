@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="65sp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:text="Sum of products:"
+        android:textSize="18sp"
+        android:paddingLeft="16dp"
+        android:background="#e5ebd8"
+        tools:ignore="TextContrastCheck" />
+
+    <ListView
+        android:id="@+id/listViewSecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#e5ebd8"
+        android:divider="@android:color/black"
+        android:dividerHeight="1dp" />
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="90sp"
+        android:gravity="center"
+        android:background="#e5ebd8">
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:text="Back"
+            android:textSize="16sp"
+            android:backgroundTint="#57594e"/>
+
+    </LinearLayout>
+
+</LinearLayout>
